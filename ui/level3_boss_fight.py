@@ -136,7 +136,7 @@ class Level3BossScreen(ScreenInterface):
 
         # קירות, שחקן, בוס, קליעים
         for wall in self.logic.walls:
-            pygame.draw.rect(screen, (0, 255, 0), wall, 1)
+            pygame.draw.rect(screen, (0, 255, 0), wall, 4)
 
         self.logic.player.draw(screen)
         self.logic.boss.draw(screen)
