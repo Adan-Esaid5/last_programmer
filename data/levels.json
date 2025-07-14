@@ -1,0 +1,31 @@
+{
+  "level1": {
+    "word": "DEBUG"
+  },
+  "level2": {
+    "code_order": [
+      "def hack():",
+      "if safe == False:",
+      "    print('Alert')",
+      "else:",
+      "    print('Access granted')"
+    ]
+  },
+  "questions": [
+     {
+                "q": "What does this return: len([1, 2, 3])?",
+                "options": ["A. 2", "B. 3", "C. 4"],
+                "answer": "B"
+            },
+            {
+                "q": "Which symbol is used to define a function in Python?",
+                "options": ["A. def", "B. func", "C. lambda"],
+                "answer": "A"
+            },
+            {
+                "q": "What error is raised when dividing by zero?",
+                "options": ["A. NameError", "B. TypeError", "C. ZeroDivisionError"],
+                "answer": "C"
+            }
+  ]
+}
